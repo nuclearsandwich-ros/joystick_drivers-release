@@ -1,0 +1,13 @@
+Source: ros-testing-joy
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rclcpp, ros-testing-rclcpp-components, ros-testing-sdl2-vendor, ros-testing-sensor-msgs, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-joy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rclcpp, ros-testing-rclcpp-components, ros-testing-sdl2-vendor, ros-testing-sensor-msgs, ros-testing-ros-workspace
+Description: The joy package contains joy_node, a node that interfaces a generic joystick to ROS 2.
+ This node publishes a &quot;Joy&quot; message, which contains the current state of each one of the joystick's buttons and axes.
