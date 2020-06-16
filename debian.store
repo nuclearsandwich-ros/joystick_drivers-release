@@ -1,1 +1,1 @@
-{"base": "36d4838", "parent": "debian/foxy/sdl2_vendor", "previous": "3231469", "trim": "", "trimbase": ""}
+{"base": "d3b33f8", "parent": "debian/rolling/sdl2_vendor", "previous": "751d896", "trim": "", "trimbase": ""}
