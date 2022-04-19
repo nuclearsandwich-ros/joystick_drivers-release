@@ -1,1 +1,1 @@
-{"base": "c020421", "parent": "debian/rolling/wiimote", "previous": "8667caf", "trim": "", "trimbase": ""}
+{"base": "40b215b", "parent": "debian/humble/wiimote", "previous": "8bcc8c8", "trim": "", "trimbase": ""}
